@@ -10,3 +10,22 @@ echo hello world
 #Examples from project
 echo installing Nginx
 echo starting Nginx service
+
+# Printing colors and changing text colors of print text
+
+#Syntax: echo -e "\e[COLmMESSAGE\e[0m"
+
+# -e to enable \e
+# \e to enable the color
+#COL - color code
+# m is enable colors
+# 0 is to disable colors
+
+# COLOR CODES: RED - 31, GREEN - 32, YELLOW - 33, BLUE- 34, MAGENTA-35, CYAN - 36
+
+echo -e "\e31mHello in Red Color\e[0m"
+echo -e "\e32mHello in Green Color\e[0m"
+echo -e "\e33mHello in Yellow Color\e[0m"
+echo -e "\e34mHello in Blue Color\e[0m"
+echo -e "\e35mHello in Magenta Color\e[0m"
+echo -e "\e36mHello in Cyan Color\e[0m"
