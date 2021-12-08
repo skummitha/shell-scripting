@@ -20,7 +20,7 @@ echo starting Nginx service
 #COL - color code
 # m is enable colors
 # 0 is to disable colors
-
+# All the values should be quoted either single quote or double quotes, preferabilly double quotes
 # COLOR CODES: RED - 31, GREEN - 32, YELLOW - 33, BLUE- 34, MAGENTA-35, CYAN - 36
 
 echo -e "\e31mHello in Red Color\e[0m"
