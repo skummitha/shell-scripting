@@ -29,3 +29,7 @@ echo -e "\e33mHello in Yellow Color\e[0m"
 echo -e "\e34mHello in Blue Color\e[0m"
 echo -e "\e35mHello in Magenta Color\e[0m"
 echo -e "\e36mHello in Cyan Color\e[0m"
+
+#https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
+echo -e "\e31mNormal Red\e[1;31mBold Red\e[0m"
